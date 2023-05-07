@@ -1,0 +1,199 @@
+$date
+	Sun Apr 10 21:17:01 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_hamming7_4_encode $end
+$var parameter 32 ! ROWS $end
+$var parameter 32 " INPUTS $end
+$var parameter 32 # OUTPUTS $end
+$var reg 4 $ data_in [3:0] $end
+$var reg 7 % expected_out [6:0] $end
+$var reg 7 & sim_out [6:0] $end
+$var integer 32 ' i $end
+$var integer 32 ( mm_count $end
+
+$scope module uut $end
+$var reg 7 ) e [7:1] $end
+$var wire 1 * d [4] $end
+$var wire 1 + d [3] $end
+$var wire 1 , d [2] $end
+$var wire 1 - d [1] $end
+$var reg 1 . p1 $end
+$var reg 1 / p2 $end
+$var reg 1 0 p3 $end
+$upscope $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+b0 %
+b0 &
+b0 )
+0.
+0/
+00
+b10000 !
+b100 "
+b111 #
+b0 '
+b0 (
+0-
+0,
+0+
+0*
+$end
+#20000
+b1 '
+b111 %
+b1 $
+1-
+1.
+1/
+b111 )
+b111 &
+#40000
+b10 '
+b11001 %
+b10 $
+0-
+1,
+10
+0/
+b11001 )
+b11001 &
+#60000
+b11 '
+b11110 %
+b11 $
+1-
+0.
+1/
+b11110 )
+b11110 &
+#80000
+b100 '
+b101010 %
+b100 $
+0-
+0,
+1+
+b101010 )
+b101010 &
+#100000
+b101 '
+b101101 %
+b101 $
+1-
+1.
+0/
+b101101 )
+b101101 &
+#120000
+b110 '
+b110011 %
+b110 $
+0-
+1,
+00
+1/
+b110011 )
+b110011 &
+#140000
+b111 '
+b110100 %
+b111 $
+1-
+0.
+0/
+b110100 )
+b110100 &
+#160000
+b1000 '
+b1001011 %
+b1000 $
+0-
+0,
+0+
+1*
+10
+1.
+1/
+b1001011 )
+b1001011 &
+#180000
+b1001 '
+b1001100 %
+b1001 $
+1-
+0.
+0/
+b1001100 )
+b1001100 &
+#200000
+b1010 '
+b1010010 %
+b1010 $
+0-
+1,
+00
+1/
+b1010010 )
+b1010010 &
+#220000
+b1011 '
+b1010101 %
+b1011 $
+1-
+1.
+0/
+b1010101 )
+b1010101 &
+#240000
+b1100 '
+b1100001 %
+b1100 $
+0-
+0,
+1+
+b1100001 )
+b1100001 &
+#260000
+b1101 '
+b1100110 %
+b1101 $
+1-
+0.
+1/
+b1100110 )
+b1100110 &
+#280000
+b1110 '
+b1111000 %
+b1110 $
+0-
+1,
+10
+0/
+b1111000 )
+b1111000 &
+#300000
+b1111 '
+b1111111 %
+b1111 $
+1-
+1.
+1/
+b1111111 )
+b1111111 &
+#320000
+b10000 '

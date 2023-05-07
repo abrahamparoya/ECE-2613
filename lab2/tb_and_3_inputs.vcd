@@ -1,0 +1,83 @@
+$date
+	Thu Apr  7 12:25:29 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_and_3_inputs $end
+$var parameter 32 ! ROWS $end
+$var parameter 32 " INPUTS $end
+$var parameter 32 # OUTPUTS $end
+$var reg 3 $ data_in [2:0] $end
+$var reg 1 % expected_out [0:0] $end
+$var reg 1 & sim_out [0:0] $end
+$var integer 32 ' i $end
+$var integer 32 ( mm_count $end
+
+$scope module uut $end
+$var reg 1 ) f $end
+$var wire 1 * a $end
+$var wire 1 + b $end
+$var wire 1 , c $end
+$upscope $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 $
+b0 %
+b0 &
+0)
+b1000 !
+b11 "
+b1 #
+b0 '
+b0 (
+0*
+0+
+0,
+$end
+#20000
+b1 '
+b1 $
+1,
+#40000
+b10 '
+b10 $
+1+
+0,
+#60000
+b11 '
+b11 $
+1,
+#80000
+b100 '
+b100 $
+1*
+0+
+0,
+#100000
+b101 '
+b101 $
+1,
+#120000
+b110 '
+b110 $
+1+
+0,
+#140000
+b111 '
+b1 %
+b111 $
+1,
+1)
+b1 &
+#160000
+b1000 '

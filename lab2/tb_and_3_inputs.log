@@ -1,0 +1,11 @@
+# vsim -c -do "and_3_inputs.m_sim" tb_and_3_inputs 
+# Start time: 12:25:28 on Apr 07,2022
+# Loading sv_std.std
+# Loading work.tb_and_3_inputs
+# Loading work.and_3_inputs
+# do and_3_inputs.m_sim
+# Simulation complete - no mismatches!!!
+# ** Note: $finish    : tb_and_3_inputs.sv(52)
+#    Time: 160 ns  Iteration: 0  Instance: /tb_and_3_inputs
+# End time: 12:25:29 on Apr 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
