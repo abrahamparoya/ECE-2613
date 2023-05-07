@@ -1,0 +1,15 @@
+# vsim -c -do "top_latch.m_sim" tb_top_latch 
+# Start time: 13:11:41 on Apr 12,2022
+# Loading sv_std.std
+# Loading work.tb_top_latch
+# Loading work.top_latch
+# Loading work.sr_latch
+# Loading work.lvl_sen_sr_latch
+# Loading work.transparent_d_latch
+# Loading work.d_flip_flop
+# do top_latch.m_sim
+# Simulation complete - no mismatches!!!
+# ** Note: $finish    : tb_top_latch.sv(54)
+#    Time: 600 ns  Iteration: 0  Instance: /tb_top_latch
+# End time: 13:11:41 on Apr 12,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

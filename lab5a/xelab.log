@@ -1,0 +1,9 @@
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /data/courses/ece_2612/Xilinx/Vivado/2021.2/bin/unwrapped/lnx64.o/xelab -debug typical tb_top_latch 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'r' on this module [/home/tun24853/ece2613/lab5a/transparent_d_latch.sv:9]
+ERROR: [VRFC 10-3427] illegal recursive design instantiation, instance name 'u_lvl' [/home/tun24853/ece2613/lab5a/transparent_d_latch.sv:9]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

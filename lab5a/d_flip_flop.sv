@@ -1,0 +1,10 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+module d_flip_flop (output logic q, input logic d, input logic clk);
+
+	logic q_to_d;
+	transparent_d_latch u_master(.d(d), .c(~clk), .q(q_to_d));
+	transparent_d_latch u_servant(.d(q_to_d), .c(clk), .q(q));
+
+endmodule

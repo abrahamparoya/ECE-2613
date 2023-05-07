@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab5a/tb_top_latch.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_top_latch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab5a/top_latch.sv" into library work
+INFO: [VRFC 10-311] analyzing module top_latch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab5a/sr_latch.sv" into library work
+INFO: [VRFC 10-311] analyzing module sr_latch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab5a/lvl_sen_sr_latch.sv" into library work
+INFO: [VRFC 10-311] analyzing module lvl_sen_sr_latch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab5a/transparent_d_latch.sv" into library work
+INFO: [VRFC 10-311] analyzing module transparent_d_latch
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab5a/d_flip_flop.sv" into library work
+INFO: [VRFC 10-311] analyzing module d_flip_flop

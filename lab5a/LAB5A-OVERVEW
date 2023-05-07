@@ -1,0 +1,38 @@
+Main Idea: design four different bit stoarge designs
+    -Basic SR Latch: 2 NOR gates
+        - S R  Qa Qb    Condition
+          0 0 0/1 1/0   hold
+          0 1  1  0     reset
+          1 0  0  1     set ("true" stores 1)
+          1 1  0  0     illegal ("true" stores 0)
+    -Level Sensitive SR Latch: 
+        - C S  R   Q     Condition
+          0 x  x  1/0    hold 
+          1 0  0  1/0    hold
+          1 0  1   0     reset
+          1 1  0   1     set ("true" stores 1)
+          1 1  1   0     illegal ("true" stores 0)
+    -Level Sensitive SR Latch: 
+        - C D Q         Condition
+          0 x 1/0       Hold
+          1 0 0         Q follows D
+          1 1 1         Q follows D
+    -Edge Triggered D Flip Flop:
+        - Clk D Q         Condition
+          ^   x Qp       Hold
+          ^   0 0        Q follows D
+          ^   1 1        Q follows D
+-Important Files:
+    -sr_latch.sv (Basic SR latch):
+        -Just two assign statements of NOR gates
+    -lvl_sen_sr_latch.sv (Level Sensitive SR Latch):
+        -do assign statments for the different AND gates
+        -calls sr_latch.sv design for u_sr [sr_latch u_sr(.qa(), .qb(q), .s(s1), .r(r1));]
+    -transparent_d_latch.sv (Transparent D Latch):
+        -instantiate lvl_sen_sr_latch.sv
+        -invert d signal (~d) then connect to r
+    -d_flip_flop.sv (Edge Triggered D Flip Flop):
+        -instanitate the transarent_d_latch twice for u_master and u_slave.
+    -top_latch.sv
+        -look at the block diagram and connect everything
+        
