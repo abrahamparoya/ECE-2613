@@ -1,0 +1,21 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab7a/tb_rotation_counter.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_rotation_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab7a/rotation_counter.sv" into library work
+INFO: [VRFC 10-311] analyzing module rotation_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab7a/up_down_bcd_counter.sv" into library work
+INFO: [VRFC 10-311] analyzing module up_down_bcd_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab7a/rc_fsm.sv" into library work
+INFO: [VRFC 10-311] analyzing module rc_fsm
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab7a/rot_enc_rec.sv" into library work
+INFO: [VRFC 10-311] analyzing module rot_enc_rec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab7a/up_down_count_dp.sv" into library work
+INFO: [VRFC 10-311] analyzing module up_down_count_dp
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab6a/display_driver.sv" into library work
+INFO: [VRFC 10-311] analyzing module display_driver
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab6a/d_counter.sv" into library work
+INFO: [VRFC 10-311] analyzing module d_counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab3/svn_seg_decoder.sv" into library work
+INFO: [VRFC 10-311] analyzing module svn_seg_decoder
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab3/anode_decoder.sv" into library work
+INFO: [VRFC 10-311] analyzing module anode_decoder
+ERROR: [VRFC 10-1491] unexpected EOF [/home/tun24853/ece2613/lab3/anode_decoder.sv:19]

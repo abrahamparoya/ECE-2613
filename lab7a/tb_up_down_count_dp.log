@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# xsim v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Apr 20 13:46:49 2022
+# Process ID: 29643
+# Current directory: /home/tun24853/ece2613/lab7a
+# Command line: xsim -mode tcl -source {xsim.dir/work.tb_up_down_count_dp/xsim_script.tcl}
+# Log file: /home/tun24853/ece2613/lab7a/xsim.log
+# Journal file: /home/tun24853/ece2613/lab7a/xsim.jou
+# Running On: ece-000, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 4, Host memory: 16507 MB
+#-----------------------------------------------------------
+source xsim.dir/work.tb_up_down_count_dp/xsim_script.tcl
+# xsim {work.tb_up_down_count_dp} -autoloadwcfg -tclbatch {tb_up_down_count_dp.tcl} -onerror quit
+Time resolution is 1 ps
+source tb_up_down_count_dp.tcl
+## run 500ns
+Simulation complete - no mismatches!!!
+$finish called at time : 305 ns : File "/home/tun24853/ece2613/lab7a/tb_up_down_count_dp.sv" Line 67
+## exit
+INFO: [Common 17-206] Exiting xsim at Wed Apr 20 13:47:07 2022...
