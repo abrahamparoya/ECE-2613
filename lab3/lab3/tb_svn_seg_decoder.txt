@@ -1,0 +1,50 @@
+//
+//
+// This file contains the test vectors for a seven segment decoder.
+// The first column in the enable signal.
+// The next four columns are the inputs: d[4:0].
+// The next six columns are the segment data - gfedcba.
+// It needs to be 32 lines long to cover all possibilities.
+//
+// complete the other 9 vectors here
+
+// now finish off the other 16 vectors for the condition: enable = 0
+1_0000_1000000	// example vector for zero(hexadecimal 0)
+// complete the other 9 vectors here
+1_0001_1111001  // hexadecimal 1
+1_0010_0100100  // hexadecimal 2
+1_0011_0110000  // hexadecimal 3
+1_0100_0011001  // hexadecimal 4
+1_0101_0010010  // hexadecimal 5
+1_0110_0000010  // hexadecimal 6
+1_0111_1111000  // hexadecimal 7
+1_1000_0000000  // hexadecimal 8
+1_1001_0010000  // hexadecimal 9
+1_1010_0100000	// hexadecimal a
+1_1011_0000011	// hexadecimal b
+1_1100_1000110	// hexadecimal c
+1_1101_0100001	// hexadecimal d
+1_1110_0000110	// hexadecimal e
+1_1111_0001110	// hexadecimal f
+
+
+
+// now finish off the other 16 vectors for the condition: enable = 0
+
+0_0000_1111111	// example vector for zero(hexadecimal 0)
+// complete the other 9 vectors here
+0_0001_1111111  // hexadecimal 1
+0_0010_1111111  // hexadecimal 2
+0_0011_1111111  // hexadecimal 3
+0_0100_1111111  // hexadecimal 4
+0_0101_1111111  // hexadecimal 5
+0_0110_1111111  // hexadecimal 6
+0_0111_1111111  // hexadecimal 7
+0_1000_1111111  // hexadecimal 8
+0_1001_1111111  // hexadecimal 9
+0_1010_1111111	// hexadecimal a
+0_1011_1111111	// hexadecimal b
+0_1100_1111111	// hexadecimal c
+0_1101_1111111	// hexadecimal d
+0_1110_1111111	// hexadecimal e
+0_1111_1111111	// hexadecimal f
