@@ -1,0 +1,13 @@
+//Design 4 Different Gates
+    -And 
+    -Or 
+    -Xor
+    -NAND
+
+    Truth Table
+        f0 f1 f2 f3
+    0 0  0  0  0  1 
+    0 1  0  1  1  1
+    1 0  0  1  1  1
+    1 1  1  1  0  0
+
