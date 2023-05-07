@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab6/tb_lab6_alu_1.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_lab6_alu_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab6/lab6_alu_1.sv" into library work
+INFO: [VRFC 10-311] analyzing module lab6_alu_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab6/alu_1.sv" into library work
+INFO: [VRFC 10-311] analyzing module alu_1
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [/home/tun24853/ece2613/lab6/alu_1.sv:18]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [/home/tun24853/ece2613/lab6/alu_1.sv:45]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab3/svn_seg_decoder.sv" into library work
+INFO: [VRFC 10-311] analyzing module svn_seg_decoder

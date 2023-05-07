@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 19 2021
+02:56:52
+/home/tun24853/ece2613/lab3/svn_seg_decoder.sv,1646853212,systemVerilog,,,,svn_seg_decoder,,,,,,,,
+/home/tun24853/ece2613/lab6/alu_1.sv,1649267448,systemVerilog,,/home/tun24853/ece2613/lab3/svn_seg_decoder.sv,,alu_1,,,,,,,,
+/home/tun24853/ece2613/lab6/lab6_alu_1.sv,1649268149,systemVerilog,,/home/tun24853/ece2613/lab6/alu_1.sv,,lab6_alu_1,,,,,,,,
+/home/tun24853/ece2613/lab6/tb_lab6_alu_1.sv,1642299337,systemVerilog,,/home/tun24853/ece2613/lab6/lab6_alu_1.sv,,tb_lab6_alu_1,,,,,,,,
