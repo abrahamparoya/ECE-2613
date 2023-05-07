@@ -1,0 +1,10 @@
+Main Idea: Code different types of shifts
+    -Logical: din0 is discarded and the left side is padded with a 0 (unsigned number)
+    -Arithmetic: din0 is discared and the left is padded with the sign og din7 (signed) 
+    -Circular:  value that is shifted out of the picture goes to the front or back
+    -Barrel: shift by more than one bit, can be circular or arithmetic, just change the numerical value.
+        -Barrel can be used for Arithmetic and Ciruclar as well by shifting more than one bit.
+
+Important Files:
+    -comb_shifters: main design
+    -lab5_top.gsf: used to generate the .sof file to be used in virtual box

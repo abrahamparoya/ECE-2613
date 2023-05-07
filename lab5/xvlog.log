@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab5/tb_comb_shifters.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_comb_shifters
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/tun24853/ece2613/lab5/comb_shifters.sv" into library work
+INFO: [VRFC 10-311] analyzing module comb_shifters
