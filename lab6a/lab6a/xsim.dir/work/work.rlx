@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 19 2021
+02:56:52
+/home/tun24853/ece2613/lab3/lab3/anode_decoder.sv,1651001785,systemVerilog,,,,anode_decoder,,,,,,,,
+/home/tun24853/ece2613/lab3/lab3/svn_seg_decoder.sv,1651001786,systemVerilog,,/home/tun24853/ece2613/lab3/lab3/anode_decoder.sv,,svn_seg_decoder,,,,,,,,
+/home/tun24853/ece2613/lab6a/lab6a/d_counter.sv,1651003311,systemVerilog,,/home/tun24853/ece2613/lab3/lab3/svn_seg_decoder.sv,,d_counter,,,,,,,,
+/home/tun24853/ece2613/lab6a/lab6a/display_driver.sv,1651003311,systemVerilog,,/home/tun24853/ece2613/lab6a/lab6a/d_counter.sv,,display_driver,,,,,,,,
+/home/tun24853/ece2613/lab6a/lab6a/tb_display_driver.sv,1651003311,systemVerilog,,/home/tun24853/ece2613/lab6a/lab6a/display_driver.sv,,tb_display_driver,,,,,,,,

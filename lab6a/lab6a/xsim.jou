@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# xsim v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Apr 28 17:03:45 2022
+# Process ID: 21824
+# Current directory: /home/tun24853/ece2613/lab6a/lab6a
+# Command line: xsim -mode tcl -source {xsim.dir/work.tb_display_driver/xsim_script.tcl}
+# Log file: /home/tun24853/ece2613/lab6a/lab6a/xsim.log
+# Journal file: /home/tun24853/ece2613/lab6a/lab6a/xsim.jou
+# Running On: ece-000, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 4, Host memory: 16507 MB
+#-----------------------------------------------------------
+source xsim.dir/work.tb_display_driver/xsim_script.tcl
+source tb_display_driver.tcl
