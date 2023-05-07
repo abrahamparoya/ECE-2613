@@ -1,0 +1,12 @@
+Main Idea:
+1. Based on the designed Hamming(7,4) 
+encoder in lab 2, design the reverse  
+operation, i.e., a decoder in this lab.
+
+2. The input will be a 7-bit Hamming  
+code, and the output will be the  
+original 4-bit code. You will also  
+insert a 1-bit error in the input  
+Hamming code and see that it gives 
+the correct original code.
+
